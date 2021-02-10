@@ -12,4 +12,5 @@
 846. third
 
 ## Links
-[I'm an inline-style link](https://www.google.com)
+[google link](https://www.google.com "Google's Homepage")
+[github link](https://www.github.com "Github Homepage")
