@@ -46,4 +46,4 @@ end architecture dataflow;
  ### Link
 [EDA](https://www.edaplayground.com/x/8qUf "EDA")
 
-## 3.Boole
+## 3.Distributive laws
