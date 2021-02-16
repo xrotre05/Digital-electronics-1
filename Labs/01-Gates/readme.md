@@ -1,8 +1,8 @@
 # 01-Gates
+## Github link
+[Github](https://github.com/xrotre05/Digital-electronics-1 "Github")
 
 ## Printscreen
-Inline-style: 
-
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/01-Gates/DeMorgan.PNG "Logo Title Text 1")
 
 ## Table
