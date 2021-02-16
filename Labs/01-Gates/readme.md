@@ -1,8 +1,8 @@
 # 01-Gates
-## Github link
+## 1.Github link
 [Github](https://github.com/xrotre05/Digital-electronics-1 "Github")
 
-## De Morgan
+## 2.De Morgan
 
 ### Design.vhd
 library IEEE;
@@ -45,3 +45,5 @@ end architecture dataflow;
  
  ### Link
 [EDA](https://www.edaplayground.com/x/8qUf "EDA")
+
+## 3.Boole
