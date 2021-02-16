@@ -2,6 +2,7 @@
 
 ## Printscreen
 Inline-style: 
+
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/01-Gates/De Morgan.PNG "Logo Title Text 1")
 
 ## Table
