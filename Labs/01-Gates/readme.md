@@ -31,11 +31,7 @@ end architecture dataflow;
 ### Printscreen
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/01-Gates/DeMorgan.PNG "Logo Title Text 1")
 
-### Link
-[EDA](https://www.edaplayground.com/x/8qUf "EDA")
-
-
-## Table
+### Table
  c | b | a | f(c,b,a) | f(c,b,a)nand | f(c,b,a)nor
 ---|---|---|---|---|---
  0 | 0 | 0 | 1 | 1 | 1  
@@ -46,3 +42,6 @@ end architecture dataflow;
  1 | 0 | 1 | 1 | 1 | 1  
  1 | 1 | 0 | 0 | 0 | 0  
  1 | 1 | 1 | 0 | 0 | 0  
+ 
+ ### Link
+[EDA](https://www.edaplayground.com/x/8qUf "EDA")
