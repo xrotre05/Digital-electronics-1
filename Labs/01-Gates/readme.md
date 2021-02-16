@@ -2,7 +2,7 @@
 ## Github link
 [Github](https://github.com/xrotre05/Digital-electronics-1 "Github")
 
-##De Morgan
+## De Morgan
 
 ### Design.vhd
 library IEEE;
