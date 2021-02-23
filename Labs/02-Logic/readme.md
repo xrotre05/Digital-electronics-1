@@ -1,6 +1,6 @@
 # 02-Logic
 
-## Table
+## 2-bit Identity comparator
 
 Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 -|-|-|-|-|-
