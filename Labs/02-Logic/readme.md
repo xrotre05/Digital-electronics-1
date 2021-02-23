@@ -200,6 +200,16 @@ begin
 
 end architecture testbench;
 
+## console output
+
+analyze design.vhd
+analyze testbench.vhd
+elaborate tb_comparator_4bit
+testbench.vhd:40:9:@0ms:(report note): Stimulus process started
+testbench.vhd:88:9:@900ns:(assertion error): Test 9 failed for input combination: 1000, 1000
+testbench.vhd:98:9:@1us:(report note): Stimulus process finished
+Finding VCD file...
+./dump.vcd
 
  ## Link
 [EDA](https://www.edaplayground.com/x/Mb9s "EDA")
