@@ -57,4 +57,4 @@ B1B0  |    01|0 |0 |1 |1
 
 GreaterSoP= B1 * /A1 + B0 * /A0 * /A1 + B0 * B1 * A1
 
-LessPoS = (A1+A0)*(/B1+/B0)*(/B1+A1)*(/B0+A1)*(/B1*A0) 
+LessPoS = (A1+A0) * (/B1+/B0) * (/B1+A1) * (/B0+A1) * (/B1*A0) 
