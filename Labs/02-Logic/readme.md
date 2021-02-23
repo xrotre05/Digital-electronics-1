@@ -26,4 +26,5 @@ Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 ## B=A
 
 A0|A1
+-|-
 00|11
