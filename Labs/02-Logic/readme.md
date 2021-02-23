@@ -1,6 +1,6 @@
 # 02-Logic
 
-## 1.2-bit Identity comparator
+## 1. Truth table 
 
 Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 -|-|-|-|-|-
@@ -21,9 +21,11 @@ Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 14  |11|10|1     |0       |0
 15  |11|11|0     |1       |0
 
-## 2.Karnaugh Maps
+## 2. 2-bit Identity comparator
 
-### B=A
+### Karnaugh Maps
+
+#### B=A
 
 &nbsp;|&nbsp;|&nbsp;|A0|A1|&nbsp;
 -|- |- |- |- |- 
@@ -33,7 +35,7 @@ B1B0  |    01|0 |1 |0 |0
 &nbsp;|    11|0 |0 |1 |0
 &nbsp;|    10|0 |0 |0 |1
 
-### B>A
+#### B>A
 
 &nbsp;|&nbsp;|&nbsp;|A0|A1|&nbsp;
 -|- |- |- |- |- 
@@ -43,7 +45,7 @@ B1B0  |    01|1 |0 |0 |0
 &nbsp;|    11|1 |1 |0 |1
 &nbsp;|    10|1 |1 |0 |0
 
-### B<A
+#### B<A
 
 &nbsp;|&nbsp;|&nbsp;|A0|A1|&nbsp;
 -|- |- |- |- |- 
@@ -61,3 +63,5 @@ LessPoS = (A1+A0) * (/B1+/B0) * (/B1+A1) * (/B0+A1) * (/B1*A0)
 
  ### Link
 [EDA](https://www.edaplayground.com/x/aE3C "EDA")
+
+## 3. 4-bit binary comparator
