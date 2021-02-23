@@ -64,9 +64,9 @@ LessPoS = (A1+A0) * (/B1+/B0) * (/B1+A1) * (/B0+A1) * (/B1*A0)
  ### Link
 [EDA](https://www.edaplayground.com/x/aE3C "EDA")
 
-## 3. 4-bit binary comparator
+# 3. 4-bit binary comparator
 
-### Design.vhd
+# Design.vhd
 library ieee;
 use ieee.std_logic_1164.all;
 
@@ -95,7 +95,7 @@ begin
 
 end architecture Behavioral;
 
-### Testbench.vhd
+# Testbench.vhd
 
 library IEEE;
 use IEEE.std_logic_1164.all;
