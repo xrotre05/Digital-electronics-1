@@ -1,6 +1,6 @@
 # 02-Logic
 
-## 2-bit Identity comparator
+## 1.2-bit Identity comparator
 
 Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 -|-|-|-|-|-
@@ -21,7 +21,7 @@ Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 14  |11|10|1     |0       |0
 15  |11|11|0     |1       |0
 
-## Karnaugh Maps
+## 2.Karnaugh Maps
 
 ### B=A
 
