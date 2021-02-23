@@ -27,7 +27,7 @@ Dec.equivalent|B[1:0]|A[1:0]| B>A | B=A | B<A
 
 &nbsp;|&nbsp;|A0|A1|&nbsp;|&nbsp;  
      -|- |- |- |- |- 
-&nbsp;|&nbsp;|00|01|11|10
+x|x|00|01|11|10
 &nbsp;|00|1 |0 |0 |0
 B1B0|01|0 |1 |0 |0
 &nbsp;|11|0 |0 |1 |0
