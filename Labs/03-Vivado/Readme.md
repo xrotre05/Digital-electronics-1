@@ -2,6 +2,7 @@
 
 ## 1.Preparation
 
+### Table 
 connection #|Switch|LED
 -|-|-
 0 |J15|H17
@@ -21,6 +22,7 @@ connection #|Switch|LED
 14|U11|V12
 15|V10|V11
 
+### Picture
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/03-Vivado/Pins.PNG "pins")
 
 
