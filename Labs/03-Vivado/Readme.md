@@ -142,15 +142,15 @@ end Behavioral;
 
 ### Adding Source Files
 
-1.click **File>Add Sources**
-2.select **Add or Create design sources** and click **Next**
-3.add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
+1. click **File>Add Sources...**
+2. select **Add or Create design sources** and click **Next**
+3. add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
 
 ### Adding Testbench Files
 
-1.click **File>Add Sources**
-2.select **Add or Create simulation sources** and click **Next**
-3.add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
+1. click **File>Add Sources...**
+2. select **Add or Create simulation sources** and click **Next**
+3. add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
 
 ### Running simulation
 
