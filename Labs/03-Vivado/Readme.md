@@ -26,4 +26,4 @@ connection #|Switch|LED
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/03-Vivado/Pins.PNG "pins")
 
 
-https://github.com/Digilent/digilent-xdc/blob/master/Nexys-A7-50T-Master.xdc
+
