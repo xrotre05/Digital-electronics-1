@@ -123,5 +123,7 @@ begin
         wait;
     end process p_stimulus;
 end Behavioral;
-
 ```
+
+### Picture of simulation
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/03-Vivado/simulation.PNG "simulation")
