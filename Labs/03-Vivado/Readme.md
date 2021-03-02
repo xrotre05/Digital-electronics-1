@@ -141,16 +141,19 @@ end Behavioral;
 8. check everything is in order and click **Finish** 
 
 ### Adding Source Files
-1.click **File>Add Sources...**
+
+1.click **File>Add Sources**
 2.select **Add or Create design sources** and click **Next**
 3.add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
 
 ### Adding Testbench Files
-1.click **File>Add Sources...**
+
+1.click **File>Add Sources**
 2.select **Add or Create simulation sources** and click **Next**
 3.add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
 
 ### Running simulation
+
 1. click **Flow>Run simulation>Run Behavioral simulation**
 2. wait until Vivado processes the simulation (or until an error occures)
 3. you can maximize simulation window by clicking **Maximize**
