@@ -159,3 +159,5 @@ end Behavioral;
 3. you can maximize simulation window by clicking **Maximize**
 4. to convert I/O variables to binary click **Settings** then change Radix to **Binary**
 5. to display relevant part of simulation click **Zoom Fit**
+
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/03-Vivado/tutorial.PNG "tutorial")
