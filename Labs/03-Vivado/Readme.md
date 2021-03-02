@@ -127,3 +127,32 @@ end Behavioral;
 
 ### Picture of simulation
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/03-Vivado/simulation.PNG "simulation")
+
+## 3.Vivado tutorial
+
+### Create New Project
+1. open Vivado
+2. in Quick start select **Create Project** or use **File>Project>New...**
+3. Click **Next**
+4. add name to your project and click **Next**
+5. leave **RTL project** selected and click **Next**
+6. add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Next**
+7. click **Next** then select your board by clicking on Parts | **Boards** on top then select your board (Nexys A7-05T) and click **/Next**
+8. check everything is in order and click **Finish** 
+
+### Adding Source Files
+1.click **File>Add Sources...**
+2.select **Add or Create design sources** and click **Next**
+3.add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
+
+### Adding Testbench Files
+1.click **File>Add Sources...**
+2.select **Add or Create simulation sources** and click **Next**
+3.add sources using **Create File** select type **VHDL** and add name, then click **OK** and **Finish**
+
+### Running simulation
+1. click **Flow>Run simulation>Run Behavioral simulation**
+2. wait until Vivado processes the simulation (or until an error occures)
+3. you can maximize simulation window by clicking **Maximize**
+4. to convert I/O variables to binary click **Settings** then change Radix to **Binary**
+5. to display relevant part of simulation click **Zoom Fit**
