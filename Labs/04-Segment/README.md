@@ -128,7 +128,7 @@ p_stimulus : process
 
 
 ### Picture of Simulation
-![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/04-adder/hex_7seg_sim.PNG "7_seg_sim")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/04-Segment/hex_7seg_sim.PNG "7_seg_sim")
 
 ### VHDL code from source file top.vhd
 
@@ -248,4 +248,4 @@ LED(7) <= not(  (not((not SW(3)) and (not SW(2)) and (not SW(1)) and SW(0))) and
 ```
 
 ### Picture of Simulation
-![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/04-adder/top_sim.PNG "top_sim")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/04-Segment/top_sim.PNG "top_sim")
