@@ -246,3 +246,6 @@ LED(7) <= not(  (not((not SW(3)) and (not SW(2)) and (not SW(1)) and SW(0))) and
 --        end case;
 --     end process LED_7;
 ```
+
+### Picture of Simulation
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/04-adder/top_sim.PNG "top_sim")
