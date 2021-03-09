@@ -133,6 +133,22 @@ p_stimulus : process
 ### VHDL code from source file top.vhd
 
 ```vhdl
+entity top is
+    Port ( SW : in STD_LOGIC_VECTOR (4-1 downto 0);
+           LED : out STD_LOGIC_VECTOR (8-1 downto 0);
+           CA : out STD_LOGIC;
+           CB : out STD_LOGIC;
+           CC : out STD_LOGIC;
+           CD : out STD_LOGIC;
+           CE : out STD_LOGIC;
+           CF : out STD_LOGIC;
+           CG : out STD_LOGIC;
+           AN : out STD_LOGIC_VECTOR (8-1 downto 0));
+end top;
+
+------------------------------------------------------------------------
+-- Architecture body for top level
+------------------------------------------------------------------------
 architecture behavioral of top is
 begin
 
@@ -155,8 +171,34 @@ begin
 
     -- Display input value
     LED(3 downto 0) <= SW;
-   
-    -- Turn LED(4) on if input value is equal to 0, ie "0000"
+```
+
+## 3. LED indicators
+
+### Truth table for LED(7:4) indicators
+
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0000 | 1 | 0 | 0 | 0 |
+| 1 | 0001 | 0 | 0 | 1 | 1 |
+| 2 | 0010 | 0 | 0 | 0 | 1 |
+| 3 | 0011 | 0 | 0 | 1 | 0 |
+| 4 | 0100 | 0 | 0 | 0 | 1 |
+| 5 | 0101 | 0 | 0 | 1 | 0 |
+| 6 | 0110 | 0 | 0 | 0 | 0 |
+| 7 | 0111 | 0 | 0 | 1 | 0 |
+| 8 | 1000 | 0 | 0 | 0 | 1 |
+| 9 | 1001 | 0 | 0 | 1 | 0 |
+| A | 1010 | 0 | 1 | 0 | 0 |
+| b | 1011 | 0 | 1 | 1 | 0 |
+| C | 1100 | 0 | 1 | 0 | 0 |
+| d | 1101 | 0 | 1 | 1 | 0 |
+| E | 1110 | 0 | 1 | 0 | 0 |
+| F | 1111 | 0 | 1 | 1 | 0 |
+
+### VHDL code for LEDs(7:4)
+```vhdl
+-- Turn LED(4) on if input value is equal to 0, ie "0000"
      LED(4) <= '1' when (SW = "0000") else '0';   
     
     -- Turn LED(5) on if input value is greater than 9
@@ -203,10 +245,4 @@ LED(7) <= not(  (not((not SW(3)) and (not SW(2)) and (not SW(1)) and SW(0))) and
 --                    LED(7)<= '0';
 --        end case;
 --     end process LED_7;
-     
-end architecture behavioral;
 ```
-
-## 3. LED indicators
-
-###
