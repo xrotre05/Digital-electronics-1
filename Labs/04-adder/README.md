@@ -2,7 +2,19 @@
 
 ## 1. prep
 
-### Table
+### Table with connection of 7-segment displays on Nexys A7 board
+connection |Anode|Catode
+-|-|-
+CA |U13|T10
+CB |K2 |R10
+CC |T14|K16
+CD |P14|K13
+CE |J14|P15
+CF |T9 |T11
+CG |J18|L18
+DP |J17|H15
+
+### Truth table for common anode 7-segment display
 
 Hex|Imputs|A|B|C|D|E|F|G|
 -|-|-|-|-|-|-|-|-|
