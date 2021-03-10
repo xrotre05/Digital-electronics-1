@@ -1,4 +1,4 @@
-# 04-adder
+# 04-Segment
 
 ## 1. Prep
 
