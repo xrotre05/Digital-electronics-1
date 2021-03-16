@@ -28,5 +28,53 @@ BTNC |N17
 ### VHDL code of the process p_cnt_up_down
 
 ``` vhdl
+p_cnt_up_down : process(clk)
+    begin
+        if rising_edge(clk) then
+        
+            if (reset = '1') then               -- Synchronous reset
+                s_cnt_local <= (others => '0'); -- Clear all bits
 
+            elsif (en_i = '1') then       -- Test if counter is enabled
+
+
+                -- TEST COUNTER DIRECTION HERE
+                if (cnt_up_i = '1') then
+                s_cnt_local <= s_cnt_local + 1;
+                else
+                s_cnt_local <= s_cnt_local - 1;
+                
+                end if;
+            end if;
+        end if;
+    end process p_cnt_up_down;
+```
+
+### VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd
+
+``` vhdl
+p_reset_gen : process
+    begin
+        s_reset <= '0';
+        wait for 12 ns;
+        s_reset <= '1';                 -- Reset activated
+        wait for 73 ns;
+        s_reset <= '0';
+        wait;
+    end process p_reset_gen;
+    
+ p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        s_en     <= '1';                -- Enable counting
+        s_cnt_up <= '1';
+        wait for 380 ns;                -- Change counter direction
+        s_cnt_up <= '0';
+        wait for 220 ns;
+        s_en     <= '0';                -- Disable counting
+
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
 ```
