@@ -78,3 +78,5 @@ p_reset_gen : process
         wait;
     end process p_stimulus;
 ```
+### Picture of Simulation
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/04-Segment/hex_7seg_sim.PNG "7_seg_sim")
