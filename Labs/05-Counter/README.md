@@ -79,7 +79,7 @@ p_reset_gen : process
     end process p_stimulus;
 ```
 ### Picture of Simulation
-![alt text]( "")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/05-Counter/tb_cnt_up_down.PNG "tb_cnt_up_down")
 
 ## 3.Top level
 
@@ -164,4 +164,4 @@ end architecture Behavioral;
 ```
 
 ### Image of the top layer including both counters
-![alt text]( "")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/05-Counter/top%20layer.jpg "top layer")
