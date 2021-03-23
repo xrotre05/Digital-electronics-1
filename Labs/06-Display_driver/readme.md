@@ -3,7 +3,7 @@
 
 
 ## Image of four-digit value 3.142 
-![alt text](https://github.com/xrotre05/Digital-electronics-1/edit/main/Labs/06-Display_driver/WaveDrom-diagram.PNG "WaveDrom-diagram")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/06-Display_driver/WaveDrom-diagram.PNG "WaveDrom-diagram")
 
 ```javascript
 {
