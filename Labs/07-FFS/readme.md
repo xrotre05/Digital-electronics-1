@@ -133,7 +133,7 @@ p_stimulus : process
    end process p_stimulus;
 ```
 ### Screenshot with simulated time waveforms
-![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/d-latch.PNG "d-latch")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/d_latch.PNG "d_latch")
 
 ## 3. Flip-flops
 
