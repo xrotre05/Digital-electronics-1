@@ -252,6 +252,9 @@ p_clk_gen : process
        wait;
    end process p_stimulus;
    ```
+#### Screenshot
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/d_ff_arst.PNG "d_ff_arst")
+
 
 ### b) d_ff_rst
 
@@ -371,6 +374,8 @@ p_clk_gen : process
    end process p_stimulus;
 
 ```
+#### Screenshot
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/d_ff_rst.PNG "d_ff_rst")
 
 ### c) jk_ff_rst
 
@@ -573,6 +578,9 @@ p_jk_ff_rst : process(clk,rst)
    end process p_stimulus;
 
 ```
+#### Screenshot
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/jk_ff_rst.PNG "jk_ff_rst")
+
 ### d) t_ff_rst
 
 #### process `p_t_ff_rst`
@@ -698,3 +706,7 @@ p_clk_gen : process
        wait;
    end process p_stimulus;
 ```
+#### Screenshot
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/t_ff_rst.PNG "t_ff_rst")
+
+## 4.Shift register
