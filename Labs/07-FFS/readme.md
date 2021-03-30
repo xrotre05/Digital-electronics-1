@@ -711,4 +711,4 @@ p_clk_gen : process
 
 ## 4. Shift register
 ### Shift register schematic
-![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/t_ff_rst.PNG "t_ff_rst")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/07-FFS/Shift_register.jpg "Shift register")
