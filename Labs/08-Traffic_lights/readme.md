@@ -20,3 +20,16 @@
 | :-: | :-: | :-: | :-: | :-: |
 | LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
 | LD17 | N16, R11, G14 | `1,0,0` | `1,1,0` | `0,1,0` |
+
+## 2. Traffic light controller
+
+### State diagram
+
+
+### VHDL code of sequential process `p_traffic_fsm`
+
+
+### VHDL code of combinatorial process `p_output_fsm`
+
+
+### Screenshots of the simulation
