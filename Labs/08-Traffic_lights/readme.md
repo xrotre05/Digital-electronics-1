@@ -4,7 +4,6 @@
 
 ### State table
 
-
 | **Input P** | `0` | `0` | `1` | `1` | `0` | `1` | `0` | `1` | `1` | `1` | `1` | `0` | `0` | `1` | `1` | `1` |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | **Clock** | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) | ![rising](Images/eq_uparrow.png) |
@@ -24,7 +23,7 @@
 ## 2. Traffic light controller
 
 ### State diagram
-
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/State_diagram.jpg "State diagram")
 
 ### VHDL code of sequential process `p_traffic_fsm`
 
@@ -33,3 +32,6 @@
 
 
 ### Screenshots of the simulation
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/sim1.PNG "sim1")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/sim2.PNG "sim2")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/sim3.PNG "sim3")
