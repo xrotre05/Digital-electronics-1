@@ -163,3 +163,12 @@ p_traffic_fsm : process(clk)
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/sim1.PNG "sim1")
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/sim2.PNG "sim2")
 ![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/sim3.PNG "sim3")
+
+## 3. Smart controller
+
+### State table
+
+### State diagram
+
+### VHDL code of sequential process `p_smart_traffic_fsm`
+
