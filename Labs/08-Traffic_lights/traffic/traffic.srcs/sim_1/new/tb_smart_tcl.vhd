@@ -15,14 +15,14 @@ use ieee.std_logic_1164.all;
 ------------------------------------------------------------------------
 -- Entity declaration for testbench
 ------------------------------------------------------------------------
-entity tb_tlc is
+entity tb_smart_tlc is
     -- Entity of testbench is always empty
-end entity tb_tlc;
+end entity tb_smart_tlc;
 
 ------------------------------------------------------------------------
 -- Architecture body for testbench
 ------------------------------------------------------------------------
-architecture testbench of tb_tlc is
+architecture testbench of tb_smart_tlc is
 
     -- Local constants
     constant c_CLK_100MHZ_PERIOD : time := 10 ns;
@@ -30,15 +30,17 @@ architecture testbench of tb_tlc is
     --Local signals
     signal s_clk_100MHz : std_logic;
     signal s_reset      : std_logic;
+    signal s_sens       : std_logic_vector(2 - 1 downto 0);
     signal s_south      : std_logic_vector(3 - 1 downto 0);
     signal s_west       : std_logic_vector(3 - 1 downto 0);
 
 begin
     -- Connecting testbench signals with tlc entity (Unit Under Test)
-    uut_tlc : entity work.tlc
+    uut_smart_tlc : entity work.smart_tlc
         port map(
             clk     => s_clk_100MHz,
-            reset   => s_reset,  
+            reset   => s_reset, 
+            SW      => s_sens, 
             south_o => s_south,
             west_o  => s_west
         );
@@ -75,7 +77,33 @@ begin
     --------------------------------------------------------------------
     p_stimulus : process
     begin
-        -- No input data needed.
+        
+        s_sens <= "00";
+        wait for 500 ns;
+        s_sens <= "10";
+        wait for 500 ns;
+        s_sens <= "01";
+        wait for 500 ns;
+        s_sens <= "00";
+        wait for 500 ns;
+        s_sens <= "11";
+        wait for 500 ns;
+        
+        
+        s_sens <= "00";
+        wait for 500 ns;
+        s_sens <= "10";
+        wait for 500 ns;
+        s_sens <= "01";
+        wait for 500 ns;
+        s_sens <= "00";
+        wait for 500 ns;
+        s_sens <= "11";
+        wait for 500 ns;
+        
+        
+        
+        
         wait;
     end process p_stimulus;
 
