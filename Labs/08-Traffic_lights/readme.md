@@ -12,6 +12,8 @@
 | **Output R**  | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `0` | `1` | `0` |
 
 ### Figure with connection of RGB LEDs on Nexys A7 board
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/RGB.PNG "RGB")
+
 
 ### Table with connection of RGB LEDs on Nexys A7 board
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
