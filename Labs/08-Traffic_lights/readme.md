@@ -23,7 +23,7 @@
 ## 2. Traffic light controller
 
 ### State diagram
-![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/State_diagram.jpg "State diagram")
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/Statediagram.jpg "State diagram")
 
 ### VHDL code of sequential process `p_traffic_fsm`
 
