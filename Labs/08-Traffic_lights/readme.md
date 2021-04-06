@@ -180,6 +180,8 @@ p_traffic_fsm : process(clk)
 
 
 ### State diagram
+![alt text](https://github.com/xrotre05/Digital-electronics-1/blob/main/Labs/08-Traffic_lights/Images/Smart_state_diagram.jpg "Smart_state_diagram")
+
 
 ### VHDL code of sequential process `p_smart_traffic_fsm`
 ```vhdl
