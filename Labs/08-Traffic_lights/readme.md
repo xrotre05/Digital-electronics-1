@@ -170,12 +170,12 @@ p_traffic_fsm : process(clk)
 
 | **Current state** | **State change** | **Minimal Delay** 
 | :-- | :-: | :-: | 
-| `STOP1`      |  | 1 sec |
-| `WEST_GO`    |  | 4 sec |
-| `WEST_WAIT`  |  | 2 sec |
-| `STOP2`      |  | 1 sec |
-| `SOUTH_GO`   |  | 4 sec |
-| `SOUTH_WAIT` |  | 2 sec |
+| `STOP1`      | always  | 1 sec |
+| `WEST_GO`    | sensor south | 4 sec |
+| `WEST_WAIT`  | always | 2 sec |
+| `STOP2`      | always | 1 sec |
+| `SOUTH_GO`   | sensor west | 4 sec |
+| `SOUTH_WAIT` | always | 2 sec |
 
 
 
