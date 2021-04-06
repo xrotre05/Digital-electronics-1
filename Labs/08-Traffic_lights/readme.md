@@ -168,14 +168,14 @@ p_traffic_fsm : process(clk)
 
 ### State table
 
-| **Current state** | **Direction South** | **Direction West** | **Delay** 
-| :-- | :-: | :-: | :-: |
-| `STOP1`      | red    | red | 1 sec |
-| `WEST_GO`    | red    | green | 4 sec |
-| `WEST_WAIT`  | red    | yellow | 2 sec |
-| `STOP2`      | red    | red | 1 sec |
-| `SOUTH_GO`   | green  | red | 4 sec |
-| `SOUTH_WAIT` | yellow | red | 2 sec |
+| **Current state** | **State change** | **Minimal Delay** 
+| :-- | :-: | :-: | 
+| `STOP1`      |  | 1 sec |
+| `WEST_GO`    |  | 4 sec |
+| `WEST_WAIT`  |  | 2 sec |
+| `STOP2`      |  | 1 sec |
+| `SOUTH_GO`   |  | 4 sec |
+| `SOUTH_WAIT` |  | 2 sec |
 
 
 
